@@ -133,7 +133,7 @@ STATICFILES_DIRS = [
 
 django_heroku.settings(locals())
 
-#DEBUG404 = True 
+DEBUG404 = True 
 #ALLOWED_HOSTS = ['*'] # it works but not secure, so use
 
 DEBUG_PROPAGATE_EXCEPTIONS = True
