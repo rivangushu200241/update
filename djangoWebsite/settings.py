@@ -80,10 +80,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'store', # example - blog_data
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'NAME': 'oc87t7y3cgc4p69l ', # example - blog_data
+        'USER': 'tsfpq89a2vzceyc6',
+        'PASSWORD': 'oc87t7y3cgc4p69l ',
+        'HOST': 'm7az7525jg6ygibs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
