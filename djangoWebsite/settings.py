@@ -84,7 +84,7 @@ DATABASES = {
         'USER': 'tsfpq89a2vzceyc6',
         'PASSWORD': 'oc87t7y3cgc4p69l ',
         'HOST': 'm7az7525jg6ygibs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-        'PORT': '3306',
+        'PORT': '',
     }
 }
 
