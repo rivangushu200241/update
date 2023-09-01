@@ -77,17 +77,22 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'oc87t7y3cgc4p69l ', # example - blog_data
+#         'USER': 'tsfpq89a2vzceyc6',
+#         'PASSWORD': 'oc87t7y3cgc4p69l ',
+#         'HOST': 'm7az7525jg6ygibs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+#         'PORT': '',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'oc87t7y3cgc4p69l ', # example - blog_data
-        'USER': 'tsfpq89a2vzceyc6',
-        'PASSWORD': 'oc87t7y3cgc4p69l ',
-        'HOST': 'm7az7525jg6ygibs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
